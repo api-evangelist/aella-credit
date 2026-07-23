@@ -1,7 +1,20 @@
 aid: aella-credit
 name: Aella Credit
-description: Aella Credit is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aella (Aella Credit) is a technology-driven microfinance bank licensed by the
+  Central Bank of Nigeria (CBN), building consumer and business financial
+  infrastructure across Africa. Its consumer app offers savings, low-interest
+  and same-day loans, bill payments, and high-yield savings accounts, while its
+  Fintech-as-a-Service platform exposes that infrastructure to businesses through
+  a developer-facing API gateway. Published API capabilities include wallet-as-a-
+  service (create and manage digital wallets with real-time balances and full
+  ledger support), KYC/identity verification via BVN and NIN, bank-account lookup
+  and validation, sub-accounts and pooled fund structures for platforms and
+  marketplaces, and direct-debit recurring collections. A live Aella Merchant API
+  is hosted at api.aellaapp.com and a merchant dashboard at merchant.aellaapp.com,
+  though the provider does not yet publish a public developer portal, OpenAPI
+  definition, or SDKs. This profile was seeded as a portfolio company of 500 Global
+  and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/aella-credit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +22,49 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://static.aellaapp.com/user_image/OPTIONB.png
 tags:
 - Company
-apis: []
+- Fintech
+- Banking
+- Microfinance
+- Payments
+- Lending
+- Digital Wallet
+- KYC
+- Identity Verification
+- Direct Debit
+- Nigeria
+- Africa
+- Fintech as a Service
+apis:
+- name: Aella Merchant API
+  description: >-
+    Aella's Fintech-as-a-Service API gateway for businesses, exposing wallet-as-a-
+    service, KYC/identity verification (BVN, NIN), bank-account lookup and
+    validation, sub-accounts/pooling, and direct-debit collections. The API host
+    responds at api.aellaapp.com ("Welcome to Aella Merchant API"); endpoints are
+    authentication-gated and the provider does not yet publish an OpenAPI
+    definition or public reference documentation.
+  humanURL: https://aellaapp.com/fintech-as-a-service
+  baseURL: https://api.aellaapp.com
+  properties:
+  - type: Website
+    url: https://aellaapp.com/fintech-as-a-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +73,18 @@ maintainers:
 common:
 - type: Website
   url: https://aellaapp.com
+- type: DeveloperPortal
+  url: https://aellaapp.com/fintech-as-a-service
+- type: SignUp
+  url: https://merchant.aellaapp.com/sign-up
+- type: GitHubOrganization
+  url: https://github.com/aellacredit
+- type: DomainSecurity
+  url: security/aella-credit-domain-security.yml
+- type: LLMsTxt
+  url: llms/aella-credit-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

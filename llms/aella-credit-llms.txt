@@ -1,0 +1,23 @@
+# Aella Credit
+
+> Aella (Aella Credit) is a technology-driven microfinance bank licensed by the Central Bank of Nigeria (CBN), building consumer and business financial infrastructure across Africa. Its Fintech-as-a-Service platform exposes wallet-as-a-service, KYC/identity verification (BVN, NIN), bank-account lookup and validation, sub-accounts/pooling, and direct-debit collections through a developer-facing API gateway (the Aella Merchant API at api.aellaapp.com). A public developer portal, OpenAPI definition, and SDKs are not yet published.
+
+## APIs
+
+- [Aella Merchant API](https://aellaapp.com/fintech-as-a-service): Fintech-as-a-Service gateway (wallets, KYC/BVN/NIN, bank lookup, sub-accounts, direct debit). Host: https://api.aellaapp.com (auth-gated; no public OpenAPI).
+
+## Products
+
+- [Fintech as a Service](https://aellaapp.com/fintech-as-a-service): Business API gateway for embedded financial services.
+- [Credit](https://aellaapp.com/credit): Consumer lending and same-day loans.
+- [Merchant Dashboard](https://merchant.aellaapp.com): Business onboarding and merchant portal.
+
+## Docs
+
+- [FAQ](https://aellaapp.com/faq)
+- [GitHub Organization](https://github.com/aellacredit)
+
+## Company
+
+- [Website](https://aellaapp.com)
+- Contact: support@aellacredit.com, info@aellamfb.com
